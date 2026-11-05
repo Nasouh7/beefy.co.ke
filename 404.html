@@ -2,8 +2,7 @@
 <body><main class="sec"><div class="wrap"><span class="k">404</span><h1>Page not found.</h1><p class="lead" style="margin-top:20px">The page may have moved. <a href="/" style="color:var(--red)">Go to the home page</a> · <a href="/ar/" style="color:var(--red)" lang="ar">الصفحة الرئيسية</a></p></div></main><script>
 // Legacy Base44 route rescue (case-insensitive) — keeps old indexed URLs alive
 (function(){var p=location.pathname.replace(/\/+$/,'').replace(/^\/+/,'').toLowerCase();
-var P='/nairobi-poultry/',C='/contact/';
-var m={"events":P,"event":P,"eventlogistics":P,"bulksupply":P,"bulk-supply":P,"bulk":P,"order":P,"ordernow":P,"startorder":P,"shop":P,"store":P,"products":P,
-"workwithus":C,"work-with-us":C,"careers":C,"riders":C,"farmers":C,"contact":C,"contactus":C,"team":C,"home":"/","index":"/","about":"/"};
+var N="/nairobi-poultry/";
+var m={"events":N+"events/","event":N+"events/","eventlogistics":N+"events/","bulksupply":N+"bulk-supply/","bulk":N+"bulk-supply/","order":N+"order/","ordernow":N+"order/","startorder":N+"order/","shop":N+"order/","store":N+"order/","products":N+"order/","workwithus":N+"work-with-us/","careers":N+"work-with-us/","riders":N+"work-with-us/","farmers":N+"work-with-us/","contact":N+"contact/","contactus":N+"contact/","team":N+"contact/","poultry":N,"home":"/","index":"/","about":"/"};
 if(m.hasOwnProperty(p))location.replace(m[p]);})();
 </script></body></html>

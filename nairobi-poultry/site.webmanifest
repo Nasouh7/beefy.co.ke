@@ -1,0 +1,12 @@
+{
+  "name": "BEEFY Nairobi",
+  "short_name": "BEEFY",
+  "icons": [
+    {"src": "/nairobi-poultry/assets/img/icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "/nairobi-poultry/assets/img/icon-512.png", "sizes": "512x512", "type": "image/png"}
+  ],
+  "theme_color": "#D62828",
+  "background_color": "#ffffff",
+  "display": "browser",
+  "start_url": "/nairobi-poultry/"
+}
